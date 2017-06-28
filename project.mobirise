@@ -1,6 +1,6 @@
 {
   "settings": {
-    "currentPage": "news.html",
+    "currentPage": "home.html",
     "name": "Test 1",
     "theme": {
       "name": "mobirise3",
@@ -124,6 +124,16 @@
             "Theme"
           ],
           "_name": "form1",
+          "_styles": {
+            ".form-control-label": {
+              "color": "#232323"
+            },
+            "SMALL": {
+              "text-align": "center",
+              "font-family": "'Roboto', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Roboto:400,300,700"
+            }
+          },
           "_anchor": "form1-3",
           "_params": {
             "labelsColor": "#232323",
@@ -169,17 +179,7 @@
               }
             }
           },
-          "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn btn-primary\" data-toolbar=\"-mbrLink,-mbrBtnAdd,-mbrBtnMove\">CONTACT US</a>",
-          "_styles": {
-            ".form-control-label": {
-              "color": "#232323"
-            },
-            "SMALL": {
-              "text-align": "center",
-              "font-family": "'Roboto', sans-serif",
-              "googleLink": "https://fonts.googleapis.com/css?family=Roboto:400,300,700"
-            }
-          }
+          "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn btn-primary\" data-toolbar=\"-mbrLink,-mbrBtnAdd,-mbrBtnMove\">CONTACT US</a>"
         },
         {
           "_tags": [
@@ -2041,6 +2041,19 @@
             "Theme"
           ],
           "_name": "contacts1",
+          "_styles": {
+            "P": {
+              "color": "#c0a375",
+              "font-size": "16px",
+              "font-family": "'Montserrat', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Montserrat:400,700",
+              "text-align": "left"
+            },
+            "STRONG": {
+              "font-size": "24px",
+              "text-align": "left"
+            }
+          },
           "_anchor": "contacts1-f",
           "_params": {
             "paddingTop": "2",
@@ -2075,20 +2088,7 @@
           },
           "text1": "<strong>Address</strong><br>The Interweb",
           "text2": "<strong>Contacts</strong><br>Email: Gimmegutz@gmail.com<br>\nPhone: (206) 569-5829<br>",
-          "text3": "<strong>Links</strong><br><a href=\"http://gimmegutz.clanwebsite.com/forum\" target=\"_blank\">Clan Forum</a><br>",
-          "_styles": {
-            "P": {
-              "color": "#c0a375",
-              "font-size": "16px",
-              "font-family": "'Montserrat', sans-serif",
-              "googleLink": "https://fonts.googleapis.com/css?family=Montserrat:400,700",
-              "text-align": "left"
-            },
-            "STRONG": {
-              "font-size": "24px",
-              "text-align": "left"
-            }
-          }
+          "text3": "<strong>Links</strong><br><a href=\"http://gimmegutz.clanwebsite.com/forum\" target=\"_blank\">Clan Forum</a><br>"
         },
         {
           "_inherit": "social-buttons2",
@@ -2370,6 +2370,11 @@
             "Theme"
           ],
           "_name": "msg-box1",
+          "_styles": {
+            "H2": {
+              "text-align": "left"
+            }
+          },
           "_anchor": "msg-box1-16",
           "_params": {
             "paddingTop": 3,
@@ -2393,12 +2398,7 @@
           },
           "button": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"training.html\" data-toolbar=\"-mbrBtnMove\">TRAINING</a>",
           "text": "..Other ways to learn",
-          "title": "!Check out our videos",
-          "_styles": {
-            "H2": {
-              "text-align": "left"
-            }
-          }
+          "title": "!Check out our videos"
         },
         {
           "_tags": [
